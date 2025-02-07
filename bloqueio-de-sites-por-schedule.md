@@ -4,7 +4,7 @@
 
 `sudo nano /Library/LaunchDaemons/com.blockyoutube.json`
 
-````
+```
 {
   "Label": "com.blockyoutube",
   "ProgramArguments": [
@@ -50,7 +50,6 @@
 
 `sudo plutil -convert xml1 -o /Library/LaunchDaemons/com.unblockyoutube.plist /Library/LaunchDaemons/com.unblockyoutube.json`
 
-
 #### 4 carregar o job
 
 `sudo launchctl load -w /Library/LaunchDaemons/com.blockyoutube.plist`
@@ -67,4 +66,7 @@ resultado esperado
 - 0    com.blockyoutube
 - 0    com.unblockyoutube
 ```
-````
+
+```
+
+```
